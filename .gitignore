@@ -1,6 +1,28 @@
-.env
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
 
-
+# Test files
+test_*.pdf
+test_*.docx
+sample_resumes/
